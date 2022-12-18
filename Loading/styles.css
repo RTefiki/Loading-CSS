@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.load {
+    border: 16px solid black;
+    border-radius: 50%;
+    border-top: 16px solid white;
+    width: 120px;
+    height: 120px;
+    animation: rotate 2s linear infinite;
+    flex-flow: center;
+
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0 deg);}
+    100%{transform: rotate(100 dge);}
+}
